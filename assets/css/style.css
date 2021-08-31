@@ -161,7 +161,7 @@ section {
     flex: 1 30%;
 }
 
-.step-into {
+.step-info {
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
