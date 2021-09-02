@@ -38,13 +38,13 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color:#fce138;
+    color:var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
 header a {
     text-decoration: none;
-    color:#fce138;
+    color:var(--primary-color);
 }
 
 header nav {
@@ -438,8 +438,8 @@ section {
     content:"";
     height: 6px;
     width: 14px;
-    border-left: 2px solid #024e76;
-    border-bottom: 2px solid #024e76;
+    border-left: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
     position: absolute;
     left: -26px;
     top: 1px;
